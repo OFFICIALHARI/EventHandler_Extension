@@ -1,0 +1,117 @@
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #0A192F;
+    color: #E6F1FF;
+    margin: 0;
+    padding: 16px;
+    min-width: 320px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #64FFDA;
+    border-bottom: 2px solid #233554;
+    padding-bottom: 8px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+label {
+    font-size: 14px;
+    color: #8892B0;
+}
+
+input[type="text"],
+input[type="date"] {
+    padding: 10px 12px;
+    border: 1px solid #233554;
+    border-radius: 6px;
+    background-color: #112240;
+    color: #E6F1FF;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus {
+    outline: none;
+    border-color: #64FFDA;
+    box-shadow: 0 0 0 2px rgba(100, 255, 218, 0.1);
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    accent-color: #64FFDA;
+}
+
+.button-group {
+    display: flex;
+    gap: 12px;
+    margin-top: 8px;
+}
+
+button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#save-event {
+    background-color: #64FFDA;
+    color: #0A192F;
+}
+
+#save-event:hover {
+    background-color: #4CD2B5;
+    transform: translateY(-1px);
+}
+
+#cancel-event {
+    background-color: #233554;
+    color: #E6F1FF;
+}
+
+#cancel-event:hover {
+    background-color: #2F477A;
+    transform: translateY(-1px);
+}
+
+.dashboard-link {
+    margin-top: 16px;
+    text-align: center;
+}
+
+.dashboard-link a {
+    color: #64FFDA;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.dashboard-link a:hover {
+    color: #4CD2B5;
+}
